@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/myHome"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/myChat"
+        android:icon="@drawable/ic_chat"
+        android:title="Chat" />
+
+    <item
+        android:id="@+id/myPeople"
+        android:icon="@drawable/ic_people"
+        android:title="Friend List" />
+
+    <item
+        android:id="@+id/myFindFriends"
+        android:icon="@drawable/ic_add_friends"
+        android:title="Find Friends" />
+
+
+    <item
+        android:id="@+id/mySettings"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings" />
+</menu>
