@@ -4,8 +4,6 @@ import com.google.firebase.database.PropertyName;
 
 public class User {
 
-
-
     public String Name,Surname,Email,PhoneNo,Password;
 
     public User(){
@@ -19,46 +17,29 @@ public class User {
         this.PhoneNo = PhoneNo;
     }
 
-    public boolean isNameEmpty(String a){
-        if(a.isEmpty()){
-            return false;
-        }else {
-            return true;
-        }
+    public void setName(String name) {
+        Name = name;
     }
 
-    public boolean isEmailEmpty(String a){
-        if(a.isEmpty()){
-            return false;
-        }else {
-            return true;
-        }
+    public void setSurname(String surname) {
+        Surname = surname;
     }
 
-    public boolean isPasswordEmpty(String a){
-        if(a.isEmpty()){
-            return false;
-        }else {
-            return true;
-        }
+    public String getEmail() {
+        return Email;
     }
 
-    public boolean isPhoneEmpty(String a){
-        if(a.isEmpty()){
-            return false;
-        }else {
-            return true;
-        }
-    }
-    public boolean isSurnameEmpty(String a){
-        if(a.isEmpty()){
-            return false;
-        }else {
-            return true;
-        }
+    public String getPhoneNo() {
+        return PhoneNo;
     }
 
+    public void setPhoneNo(String phoneNo) {
+        PhoneNo = phoneNo;
+    }
 
+    public void setEmail(String email) {
+        Email = email;
+    }
 
     @PropertyName("Name")
     public String getName() {
